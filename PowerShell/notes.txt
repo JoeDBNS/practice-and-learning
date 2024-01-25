@@ -1,0 +1,10 @@
+help get-service -parameter name
+
+"windefend","winrm" | get-service
+
+[enum]::GetNames("System.ServiceProcess.ServiceControllerStatus")
+
+
+Console Beep Noise (pitch,duration)
+[console]::beep(500,300)
+[console]::beep(2000,500)
